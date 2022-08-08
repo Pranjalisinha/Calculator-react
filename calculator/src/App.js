@@ -12,7 +12,7 @@ const App =()=> {
     setInput("");
    }
    const resultHandler = () =>{
-    setInput(eval(input));
+    setInput(eval(input).toString());
    }
 
   return (
